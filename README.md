@@ -22,11 +22,13 @@ The project follows these key steps:
     *  	CountVectorizer + XGBoost
     *  	TFIDF	CountVectorizer	+ XGBoost
     *   CountVectorizer + Random Forest (using default parameters)
+    *   Embedding(DistilBERT) + Logistic Regression
     We compare the models using accuracy, confusion matrices, and classification reports (including precision, recall, and F1-score).
 4. **Model Analysis**: Analyzing the performance of each model, including investigating reasons for potential underperformance (e.g., overfitting in the Random Forest       model).
 5. **Model Saving**: Saving the best performing model (TF-IDF + Naive Bayes based on the notebook's analysis) and its corresponding vectorizer for future use.
 ## Results
     *  The notebook includes detailed evaluations and comparisons of the implemented models. Based on the analysis, the TF-IDF + Naive Bayes model demonstrated strong          performance on the validation set after hyperparameter tuning. Our final model is saved in "Prediction_test_NB_Vectrorizer" notebook. Our prediction of test data is saved in "test_predictions.csv" file.
+    * With Embedding feaute Extraction method, our prediction of test data is saved in "test_predictions_Embedding.csv"
 ## Saved Models
   The trained TF-IDF Vectorizer and the best performing Naive Bayes model are saved using `pickle` and can be found in the repository (or downloaded from the notebook     execution):
   *   `tfidf_vectorizer.pkl`
