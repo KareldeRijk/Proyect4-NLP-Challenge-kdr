@@ -34,3 +34,11 @@ The project follows these key steps:
   *   `tfidf_vectorizer.pkl`
   *   `best_nb.pkl`
   These files can be loaded to make predictions on new data without retraining the model.
+## Deliverables documents
+* Final model notebook: Final_model_Slack.ipynb
+* Model used to predict testing data: Prediction_Test_NB_Vectorizer.ipynb
+* Predictions: test_predictions.csv
+* Final Embedding model: Embedding.ipynb
+* Embedding model used to predict testing data: Prediction_Tes_Embedding.ipynb
+* Predictions with embedding model: test_predictions_Embedding.csv
+* Powerpoint: Project 3 - Group 1 - Presentation - Final.pptx
